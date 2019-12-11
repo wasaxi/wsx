@@ -1,0 +1,154 @@
+
+.crumbs{
+    border-bottom: solid #F5F5F5;
+    height: 160px;
+    width:100%;
+    padding-top: 110px;
+}
+
+.title {
+    font-size: 25px;
+    font-family: 微软雅黑;
+}
+
+.text1 {
+    padding-top: 10px;
+    float:right;
+    font-size: 13px;
+    font-family:微软雅黑;
+    color:gray;
+ }
+
+
+
+.page-left-menu {
+    border: 1px solid #e6e6e6;
+    float: left;
+    margin-right: 18px;
+    border-radius: 10px 10px 0 0;
+    width: 240px;
+    overflow: hidden;
+    margin-bottom: 40px; }
+.page-left-menu a { color: #333; }
+.page-left-menu .page-left-title {
+    border-bottom: 1px solid #e6e6e6;
+    padding-left: 45px;
+    background: #fff;
+    color: #0093c4; }
+.page-left-menu .page-left-title .zh { font-size: 24px; }
+.page-left-menu .page-left-title .en { display: none;
+    font-size: 14px;
+    color: #0093c4; }
+.page-left-menu .page-left-title.bw {
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+    color: #333333; }
+.page-left-menu .page-left-title.bw .zh, .page-left-menu .page-left-title.bw .en { color: #333333; }
+.page-left-menu .page-left-title h1:before { content: "";
+    position: relative;
+    left: -15px;
+    top: 4px;
+    display: inline-block;
+    width: 3px;
+    height: 24px;
+    background: #0093c4; }
+.page-left-menu .page-left-title .min { font-size: 14px; }
+.page-left-menu .page-left-menu-box {
+    padding: 20px;
+    border-top: none; }
+.page-left-menu .page-left-menu-box .menu1 .menu-item1 {
+    border-bottom: 1px dashed #e6e6e6;
+    line-height: 40px;
+    font-size: 16px;
+    text-indent: 20px;
+    transition: all .3s ease-out; }
+.page-left-menu .page-left-menu-box .menu1 .menu-item1 > a {
+    display: block;
+    transition: all .3s ease-out; }
+.page-left-menu .page-left-menu-box .menu1 .menu-item1 > a:after {
+    content: ">>";
+    float: right;
+    font-family: "Consolas";
+    margin-right: 32px;
+    transition: all .3s ease-out;
+}
+.page-left-menu .page-left-menu-box .menu1 .menu-item1 > a:before {
+    content: '';
+    position: relative;
+    top: -4px;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #0093c4;
+    transition: all .3s ease-out; }
+.page-left-menu .page-left-menu-box .menu1 .menu-item1:hover > a, .page-left-menu .page-left-menu-box .menu1 .menu-item1.active > a {
+    background-color: #0093c4;
+    color: #fff; }
+.page-left-menu .page-left-menu-box .menu1 .menu-item1:hover > a:before, .page-left-menu .page-left-menu-box .menu1 .menu-item1.active > a:before { background-color: #fff; }
+.page-left-menu .page-left-menu-box .menu1 .menu-item1 .menu2 .menu-item2 a { display: block;
+    font-size: 14px;
+    text-indent: 30px;
+    line-height: 30px;
+    transition: all .3s ease-out; }
+.page-left-menu .page-left-menu-box .menu1 .menu-item1 .menu2 .menu-item2 a:hover { background-color: #e6e6e6; }
+
+
+.child{
+    border:1px solid #e6e6e6;
+    width:30%;
+    padding: 10px;
+    text-align: center;
+    display:inline-block;
+}
+.member_img img {
+    max-height: 200px;
+    max-width: 100%;
+
+}
+.member_name {
+    padding: 10px;
+}
+
+.member_info{
+    color: #808080;
+    padding:0 10px;
+}
+.childInfo{
+    color: #808080;
+    padding: 2px;
+}
+
+.child-o{
+    height: 30px;
+    border-bottom: solid #e6e6e6 ;
+    border-top: solid #e6e6e6 ;
+    padding: 1px;
+}
+.suoyou{
+    font-size: 15px;
+    width: 50px;
+    padding: 25px;
+}
+
+.child_list{
+    padding-top: 10px;
+    border-bottom: solid #e6e6e6 ;
+    width:76%;
+    float:right;
+}
+.sub{
+    padding:20px;
+}
+.content_title{
+    padding: 0 15px 15px;
+    text-align: center;
+}
+.content_img img{
+    text-align: center;
+    max-height: 300px;
+    max-width: 100%;
+    padding-top: 10px;
+}
+
+
